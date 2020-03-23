@@ -1,0 +1,14 @@
+C:\Users\dommi\source\repos\BK\BK\bin\Debug\BK.exe.config
+C:\Users\dommi\source\repos\BK\BK\bin\Debug\BK.exe
+C:\Users\dommi\source\repos\BK\BK\bin\Debug\BK.pdb
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.csprojAssemblyReference.cache
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\MainWindow.g.cs
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\App.g.cs
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK_MarkupCompile.cache
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK_MarkupCompile.lref
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\MainWindow.baml
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.g.resources
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.Properties.Resources.resources
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.csproj.GenerateResource.cache
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.exe
+C:\Users\dommi\source\repos\BK\BK\obj\Debug\BK.pdb

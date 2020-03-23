@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BK"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="BK.MainWindow"
+        mc:Ignorable="d"
+        Title="Быки и коровы" Height="350" Width="600" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="combOne" FontSize="20" Grid.Row="1" Grid.Column="1" Cursor="Arrow" Margin="15" ItemsSource="{Binding number}" SelectedItem="1"></ComboBox>
+        <ComboBox x:Name="combTwo" FontSize="20" Grid.Row="1" Grid.Column="2" Cursor="Arrow" Margin="15" ItemsSource="{Binding number}"  SelectedItem="1"></ComboBox>
+        <ComboBox x:Name="combThree" FontSize="20" Grid.Row="1" Grid.Column="3" Cursor="Arrow" Margin="15" ItemsSource="{Binding number}"  SelectedItem="1"></ComboBox>
+        <ComboBox x:Name="combFour" FontSize="20" Grid.Row="1" Grid.Column="4" Cursor="Arrow" Margin="15" ItemsSource="{Binding number}"  SelectedItem="1"></ComboBox>
+        <TextBox x:Name="TextBox" FontSize="20" Grid.Row="3" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="4" IsReadOnly="True"></TextBox>
+        <Button x:Name="zadChislo" Grid.Column="6" Grid.Row="1" Margin="0 20" FontSize="20" Click="zadChislo_Click_1">Задумать число</Button>
+        <Button x:Name="provChislo" Grid.Column="6" Grid.Row="2" Margin="0 20" FontSize="20" Click="provChislo_Click">Проверка числа</Button>
+        <Button x:Name="Exit" Grid.Column="6" Grid.Row="3" Margin="40 20" FontSize="20" Click="Exit_Click">Выход</Button>
+    </Grid>
+</Window>
